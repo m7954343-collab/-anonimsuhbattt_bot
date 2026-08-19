@@ -1,0 +1,8 @@
+services:
+  - type: worker
+    name: anonim-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    plan: free
+    
